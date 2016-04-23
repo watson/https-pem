@@ -1,6 +1,6 @@
 {
   "name": "https-pem",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Self-signed PEM key and certificate ready for use in your HTTPS server",
   "main": "index.js",
   "scripts": {
@@ -32,5 +32,9 @@
   "homepage": "https://github.com/watson/https-pem#readme",
   "devDependencies": {
     "standard": "^6.0.8"
-  }
+  },
+  "coordinates": [
+    55.68771779999999,
+    12.5956038
+  ]
 }
