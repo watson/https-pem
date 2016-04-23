@@ -1,0 +1,36 @@
+{
+  "name": "https-pem",
+  "version": "0.0.0",
+  "description": "Self-signed PEM key and certificate ready for use in your HTTPS server",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/https-pem.git"
+  },
+  "keywords": [
+    "tls",
+    "https",
+    "pem",
+    "key",
+    "keys",
+    "cert",
+    "certificate",
+    "selfsigned",
+    "self-signed",
+    "development",
+    "options",
+    "server"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/https-pem/issues"
+  },
+  "homepage": "https://github.com/watson/https-pem#readme",
+  "devDependencies": {
+    "standard": "^6.0.8"
+  }
+}
