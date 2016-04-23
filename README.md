@@ -5,10 +5,17 @@ Self-signed PEM key and certificate ready for use in your HTTPS server.
 A dead simple way to get an HTTPS server running in development with no
 need to generate the self signed PEM key and certificate.
 
-**Never use this in production of cause!**
-
 [![Build status](https://travis-ci.org/watson/https-pem.svg?branch=master)](https://travis-ci.org/watson/https-pem)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
+## WARNING
+
+**THIS MODULE CONTAINS THE PRIVATE KEY!**
+
+**It is only ment as a debugging tool when you want to run an HTTPS
+server locally but can't be bothered generating your own keys!**
+
+**Never use this if you want to keep a secret!**
 
 ## Installation
 
