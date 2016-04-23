@@ -31,6 +31,30 @@ server.listen(443, function () {
 })
 ```
 
+### Connecting
+
+When connecting to an HTTPS server from Node.js that uses a self-signed
+certificate, `https.request` will normally emit an `error` and refuse to
+complete the reuqest. To get around that simply set the
+`rejectUnauthorized` option to `false`:
+
+```js
+var opts = { rejectUnauthorized: false }
+
+var req = https.request(opts, function (res) {
+  // ...
+})
+
+req.end()
+```
+
+If using `curl` to connect to a Node.js HTTPS server using a
+self-signed certificate, use the `-k` option:
+
+```
+curl -k https://localhost:4443
+```
+
 ## API
 
 The `https-pem` module simply exposes an object with two properties:
