@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/watson/https-pem#readme",
   "devDependencies": {
-    "standard": "^6.0.8"
+    "standard": "^10.0.2"
   },
   "coordinates": [
     55.646529,
