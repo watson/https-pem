@@ -8,15 +8,6 @@ need to generate the self signed PEM key and certificate.
 [![Build status](https://travis-ci.org/watson/https-pem.svg?branch=master)](https://travis-ci.org/watson/https-pem)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-## WARNING
-
-**THIS MODULE CONTAINS THE PRIVATE KEY!**
-
-**It is only ment as a debugging tool when you want to run an HTTPS
-server locally but can't be bothered generating your own keys!**
-
-**Never use this if you want to keep a secret!**
-
 ## Installation
 
 ```
@@ -74,6 +65,8 @@ The private key (RSA).
 ### `pem.cert`
 
 The certificate.
+
+**Warning:** The certificate is self signed and valid for 365 days.
 
 ## License
 

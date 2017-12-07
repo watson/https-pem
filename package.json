@@ -30,6 +30,9 @@
     "url": "https://github.com/watson/https-pem/issues"
   },
   "homepage": "https://github.com/watson/https-pem#readme",
+  "dependencies": {
+    "selfsigned": "^1.10.1"
+  },
   "devDependencies": {
     "standard": "^10.0.2"
   },
