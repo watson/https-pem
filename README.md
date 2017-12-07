@@ -8,20 +8,18 @@ need to generate the self signed PEM key and certificate.
 [![Build status](https://travis-ci.org/watson/https-pem.svg?branch=master)](https://travis-ci.org/watson/https-pem)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-## WARNING
-
-**THIS MODULE CONTAINS THE PRIVATE KEY!**
-
-**It is only ment as a debugging tool when you want to run an HTTPS
-server locally but can't be bothered generating your own keys!**
-
-**Never use this if you want to keep a secret!**
-
 ## Installation
 
 ```
 npm install https-pem
 ```
+
+**Warning:** Upon installation a private key and a self signed
+certificate will be generated inside `./node_modules/https-pem`. The
+certificate is valid for 365 days and no attempt have been made to make
+this secure in any way. I suggest only using this for testing and
+development where you just need an easy and quick way to run an HTTPS
+server with Node.js.
 
 ## Example Usage
 

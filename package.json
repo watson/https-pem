@@ -4,6 +4,7 @@
   "description": "Self-signed PEM key and certificate ready for use in your HTTPS server",
   "main": "index.js",
   "scripts": {
+    "postinstall": "node install.js",
     "test": "standard && node test.js"
   },
   "repository": {
@@ -30,6 +31,9 @@
     "url": "https://github.com/watson/https-pem/issues"
   },
   "homepage": "https://github.com/watson/https-pem#readme",
+  "dependencies": {
+    "selfsigned": "^1.10.1"
+  },
   "devDependencies": {
     "standard": "^10.0.2"
   },
