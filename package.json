@@ -4,6 +4,7 @@
   "description": "Self-signed PEM key and certificate ready for use in your HTTPS server",
   "main": "index.js",
   "scripts": {
+    "postinstall": "node install.js",
     "test": "standard && node test.js"
   },
   "repository": {

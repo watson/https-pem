@@ -1,6 +1,7 @@
 'use strict'
 
-var pems = require('selfsigned').generate()
+var path = require('path')
+var fs = require('fs')
 
-exports.key = pems.private
-exports.cert = pems.cert
+exports.key = fs.readFileSync(path.join(__dirname, 'key.pem'))
+exports.cert = fs.readFileSync(path.join(__dirname, 'cert.pem'))

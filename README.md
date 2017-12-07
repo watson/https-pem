@@ -14,6 +14,13 @@ need to generate the self signed PEM key and certificate.
 npm install https-pem
 ```
 
+**Warning:** Upon installation a private key and a self signed
+certificate will be generated inside `./node_modules/https-pem`. The
+certificate is valid for 365 days and no attempt have been made to make
+this secure in any way. I suggest only using this for testing and
+development where you just need an easy and quick way to run an HTTPS
+server with Node.js.
+
 ## Example Usage
 
 ```js
@@ -65,8 +72,6 @@ The private key (RSA).
 ### `pem.cert`
 
 The certificate.
-
-**Warning:** The certificate is self signed and valid for 365 days.
 
 ## License
 
