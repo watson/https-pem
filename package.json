@@ -1,6 +1,6 @@
 {
   "name": "https-pem",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Self-signed PEM key and certificate ready for use in your HTTPS server",
   "main": "index.js",
   "scripts": {
@@ -38,7 +38,7 @@
     "standard": "^10.0.2"
   },
   "coordinates": [
-    55.6810299,
-    12.5644578
+    55.7774667,
+    12.5906882
   ]
 }
