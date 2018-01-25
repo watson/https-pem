@@ -57,7 +57,7 @@ If using `curl` to connect to a Node.js HTTPS server using a
 self-signed certificate, use the `-k` option:
 
 ```
-curl -k https://localhost:4443
+curl -k https://localhost:443
 ```
 
 ## API
