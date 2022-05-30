@@ -1,15 +1,15 @@
 'use strict'
 
-var assert = require('assert')
-var https = require('https')
-var pem = require('./')
+const assert = require('assert')
+const https = require('https')
+const pem = require('./')
 
-var server = https.createServer(pem, function (req, res) {
+const server = https.createServer(pem, function (req, res) {
   res.end('foo')
 })
 
 server.listen(function () {
-  var opts = {
+  const opts = {
     port: server.address().port,
     rejectUnauthorized: false
   }
