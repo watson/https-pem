@@ -35,7 +35,7 @@
     "selfsigned": "^2.0.1"
   },
   "devDependencies": {
-    "standard": "^10.0.2"
+    "standard": "^17.0.0"
   },
   "coordinates": [
     55.7774667,
